@@ -35,6 +35,7 @@ void studentsToFile(char*** students, int* coursesPerStudent, int numberOfStuden
 Student* transformStudentArray(char*** students, const int* coursesPerStudent, int numberOfStudents);
 void writeToBinFile(const char* fileName, Student* students, int numberOfStudents);
 Student* readFromBinFile(const char* fileName);
+void printStudentStruct(Student* students, int numberOfStudents);
 
 int main()
 {
